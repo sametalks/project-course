@@ -8,7 +8,7 @@ Neptun: XQVC11
 Supervisor: Tamás STORCZ  
 Project ID: 2026-ST-05
 ---
-fgfghfghfhgfhgfhfhg
+
 
 # Problem
 - Confidential spoken sessions (medical consults, legal debriefs, technical triage) require accurate structured logs.
