@@ -1,14 +1,16 @@
+---
 name: Huseyin Samet Alakus
 neptun: XQVC11
 id: 2026-ST-05
-supervisor: Tamás STORCZ
-github: https://github.com/sametalks/project-course
-github_project: https://github.com/users/sametalks/projects/1
+---
+# SUPERVISOR: Tamás STORCZ
+# github: https://github.com/sametalks/project-course
+# github_project: https://github.com/users/sametalks/projects/1
 
-Locally Running, Privacy-Oriented Speech Recognition and Structured Logging System
+## Locally Running, Privacy-Oriented Speech Recognition and Structured Logging System
 Confidential conversations frequently require accurate, structured documentation without the risk of exposing sensitive audio recordings or verbatim transcripts to third-party services or persistent storage. This project develops the design and specification for a locally running, privacy-preserving AI pipeline. The system transcribes spoken input on local hardware, extracts structured records adhering to a predefined schema, provides an operator review interface, and securely purges intermediate audio and raw textual artifacts. The work focuses on determining the minimum model size and hardware configuration capable of satisfying predefined latency and accuracy constraints.
 
-Objectives
+## Objectives
 Primary objective: Design a locally runnable, privacy-preserving speech recognition and template-based structured logging system that securely purges intermediate audio and transcript data.
 
 Target users / stakeholders: Professionals handling confidential dialogues (medical practitioners, incident response teams, technical consultants) who require structured documentation without persistent conversational recording or external cloud processing.
@@ -29,7 +31,7 @@ Execution optimized for standard personal workstations (specifically Apple Silic
 
 Version-controlled documentation and specification complying with course standards.
 
-Scope
+## Scope
 In scope
 Local speech-to-text pipeline using offline models (e.g., whisper.cpp / faster-whisper variants).
 
@@ -43,7 +45,7 @@ Investigation of compliant public datasets and lawful synthetic data generation 
 
 Human-in-the-loop validation interface for reviewing and approving extracted fields.
 
-Out of scope
+## Out of scope
 Persistent long-term archiving of raw conversational audio or full verbatim transcripts.
 
 Multi-user remote collaboration or distributed cloud deployments.
@@ -52,5 +54,5 @@ Proprietary cloud-hosted LLM/ASR API integration (e.g., OpenAI, Google Cloud).
 
 Mobile operating system deployment (initial focus is macOS/Linux local workstation environments).
 
-Notes
+## Notes
 Semester 1 establishes the full functional and technical specification, pipeline architecture, and empirical evaluation methodology. Prototype implementation and benchmark execution will be carried out during Semester 2.
